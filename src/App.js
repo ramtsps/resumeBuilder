@@ -4,14 +4,17 @@ import Header from "./components/Header/Header";
 import Body from "./components/Body/Body";
 
 import "./App.css";
+import { Footer } from "./components/Footer";
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <Body />
-    </div>
-
+    <>
+      <div className="App">
+        <Header />
+        <Body />
+        <Footer />
+      </div>
+    </>
   );
 }
 
