@@ -1,0 +1,9 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content horizontally */
+  justify-content: center; /* Center content vertically */
+  width: 850px;
+  max-width: 1500px;
+  margin: auto; /* Center the content horizontally within its container */
+}

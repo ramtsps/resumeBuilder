@@ -1,0 +1,45 @@
+/* Default styles for larger screens */
+.container {
+  padding: 50px 30px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 30px;
+  background-color: rgb(238, 252, 255);
+  min-height: 85vh;
+  width: 100%;
+}
+
+.heading {
+  margin: 0 auto;
+  max-width: 500px;
+  color: #000;
+  font-size: 2.5rem;
+  line-height: 4.1rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.heading span {
+  background-clip: text;
+  /* background-image: linear-gradient(to right, #239ce2, #1369b9); */
+  color: #1369b9;
+}
+
+.right img {
+  width: 100%;
+}
+
+/* Media query for smaller screens (e.g., tablet devices) */
+/* @media only screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    padding: 30px;
+  }
+
+  .heading {
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+  }
+} */
